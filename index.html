@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- Banner start -->
-    <div class="container-fluid mt-2 mb-2">
+    <div class="container-fluid p-0">
       <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand ps-4" href="#">
             <i class="fa-brands fa-instagram"></i>
@@ -32,7 +32,6 @@
           </div>
         </nav>
       </div>
-    <!-- Banner end -->
 
     <!-- New Post Modal -->
     <div class="modal fade" id="newPostModal" tabindex="-1" aria-labelledby="newPostModalLabel" aria-hidden="true">
@@ -80,6 +79,7 @@
       </ul>
 
       <div class="tab-content" id="pills-tabContent">
+        <!-- Grid Layout -->
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
           <div class="container-fluid">
             <div class="row g-0 row-cols-3">
@@ -110,9 +110,67 @@
             </div>
           </div>
         </div>
+        <!-- Column Layout using cards -->
         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-          <div class="row d-flex">
-            <div class="col text-center">Column</div>
+          <div class="container-fluid d-flex justify-content-center mb-3">        
+            <div class="card justify-content-center" style="width: 37rem;">
+              <div class="card-header bg-white">
+                <div class="row">
+                  <div class="col d-flex fw-bolder"><h5 class="mt-auto">This is a picture card</h5></div>
+                  <div class="col d-flex fs-6"><p class="ms-auto">10/28</p></div>
+                </div>
+              </div>  
+              <img src="https://picsum.photos/400" style="width: 100%; height: 400px; object-fit: cover;" alt="">
+              <div class="card-body">
+                <p class="card-text"><strong>204 likes</strong></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid d-flex justify-content-center mb-3">        
+            <div class="card justify-content-center" style="width: 37rem;">
+              <div class="card-header bg-white">
+                <div class="row">
+                  <div class="col d-flex fw-bolder"><h5 class="mt-auto">This is a picture card</h5></div>
+                  <div class="col d-flex fs-6"><p class="ms-auto">10/28</p></div>
+                </div>
+              </div>  
+              <img src="https://picsum.photos/400" style="width: 100%; height: 400px; object-fit: cover;" alt="">
+              <div class="card-body">
+                <p class="card-text"><strong>204 likes</strong></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid d-flex justify-content-center mb-3">        
+            <div class="card justify-content-center" style="width: 37rem;">
+              <div class="card-header bg-white">
+                <div class="row">
+                  <div class="col d-flex fw-bolder"><h5 class="mt-auto">This is a picture card</h5></div>
+                  <div class="col d-flex fs-6"><p class="ms-auto">10/28</p></div>
+                </div>
+              </div>  
+              <img src="https://picsum.photos/400" style="width: 100%; height: 400px; object-fit: cover;" alt="">
+              <div class="card-body">
+                <p class="card-text"><strong>204 likes</strong></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid d-flex justify-content-center mb-3">        
+            <div class="card justify-content-center" style="width: 37rem;">
+              <div class="card-header bg-white">
+                <div class="row">
+                  <div class="col d-flex fw-bolder"><h5 class="mt-auto">This is a picture card</h5></div>
+                  <div class="col d-flex fs-6"><p class="ms-auto">10/28</p></div>
+                </div>
+              </div>  
+              <img src="https://picsum.photos/400" style="width: 100%; height: 400px; object-fit: cover;" alt="">
+              <div class="card-body">
+                <p class="card-text"><strong>204 likes</strong></p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
