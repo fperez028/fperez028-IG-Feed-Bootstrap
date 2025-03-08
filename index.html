@@ -44,23 +44,19 @@
           </div>
           <div class="modal-body">
             <h6>Caption:</h6>
-            <div class="input-group">
-              <textarea class="form-control" aria-label="With textarea" placeholder="Add the caption of your post here"></textarea>
+            <div class="input-group mb-3"> 
+              <textarea class="form-control" placeholder="Add the caption of your post here"></textarea>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-1">
+            <div class="d-flex justify-content-start gap-2 mb-3">
               <button type="button" class="btn btn-light btn-outline-dark">
                 <i class="fa-solid fa-camera"></i>
               </button>
-            </div>
-            <div class="col-1">
               <button type="button" class="btn btn-light btn-outline-dark">
                 <i class="fa-solid fa-location-dot"></i>
               </button>
             </div>
           </div>
-          <div class="modal-footer">
+          <div class="modal-footer mt-1">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             <button type="button" class="btn btn-success">Publish</button>
           </div>
@@ -81,12 +77,18 @@
             <i class="fa-solid fa-square"></i>
           </button>
         </li>
+      </ul>
+
       <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-          Grid
+          <div class="row d-flex">
+            <div class="col text-center">Grid</div>
+          </div>
         </div>
         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-          Column
+          <div class="row d-flex">
+            <div class="col text-center">Column</div>
+          </div>
         </div>
       </div>
     </div>
